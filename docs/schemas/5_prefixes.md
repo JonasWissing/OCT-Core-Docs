@@ -19,8 +19,8 @@ CREATE TABLE Prefixes (
 
 -- EXAMPLE-DATA
 INSERT INTO Prefixes (created, updated, host, port_number, path)
-VALUES (now(), now(), 'http://giv-oct.uni-muenster.de', 80, '/api'),
+VALUES (now(), now(), 'http://giv-oct.uni-muenster.de', 80, '/api');
 
 INSERT INTO Prefixes (created, updated, host, port_number, path)
-VALUES (now(), now(), 'http://envirocar.org', 80, '/api/stable/'),
+VALUES (now(), now(), 'http://envirocar.org', 80, '/api/stable/');
 ```
